@@ -20,6 +20,12 @@ def creteFullLink(link):
     link = link[0]
     return link
 
+def summarizeValues(a,b,c):
+    print(a + b + c)
+
+def someMoreFunction():
+    print('Hello')
+
 def normalize(value):
   value = value.text
   value = value.replace('\r', '')
